@@ -1598,7 +1598,17 @@
     const baContainer = document.getElementById('beforeAfterSlider');
     const baOverlay = document.getElementById('baOverlay');
     const baHandle = document.getElementById('baHandle');
+    const baBeforeImg = document.getElementById('baBeforeImg');
     let isDraggingBA = false;
+
+    function syncBAImageSize() {
+      if (baContainer && baBeforeImg) {
+        baBeforeImg.style.width = baContainer.offsetWidth + 'px';
+      }
+    }
+    window.addEventListener('resize', syncBAImageSize);
+    window.addEventListener('load', syncBAImageSize);
+    setTimeout(syncBAImageSize, 100);
 
     function updateBASlider(clientX) {
       const rect = baContainer.getBoundingClientRect();
