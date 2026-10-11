@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="16" fill="#181E24"/>
-  <path d="M12 48L32 16L52 48H12Z" stroke="#38BDF8" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M22 48L32 32L42 48H22Z" fill="#38BDF8" fill-opacity="0.25"/>
-  <path d="M12 44C20 40 28 46 36 42C44 38 48 42 52 40" stroke="#F1F5F9" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="32" cy="24" r="3" fill="#F8FAFC"/>
+  <rect width="64" height="64" rx="16" fill="#11161B"/>
+  <!-- Stylized SEC coastal wave crest matching official logo -->
+  <path d="M14 26C14 21 20 18 32 18H50L44 26H26C21 26 20 28 20 30C20 33 24 34 32 35L44 36.5C52 37.5 54 41 53 46H13L16 40C20 42 26 42 32 42C38 42 42 41 42 38.5C42 36.5 38 35.5 30 34.5C20 33.5 14 30.5 14 26Z" fill="#FFFFFF"/>
+  <path d="M28 46C34 40 42 34 50 36C46 39 44 43 44 46" stroke="#5A82A0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M38 46C42 43 47 41 52 42" stroke="#223B4D" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="48" cy="22" r="2.5" fill="#5A82A0"/>
 </svg>
