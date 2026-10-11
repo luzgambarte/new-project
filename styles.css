@@ -93,6 +93,15 @@ input[type=range].custom-slider::-moz-range-thumb {
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.ba-overlay img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+}
+
 .ba-handle {
   position: absolute;
   top: 50%;
