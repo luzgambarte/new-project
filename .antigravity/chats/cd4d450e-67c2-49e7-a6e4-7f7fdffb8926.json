@@ -112,6 +112,18 @@
       "created_at": "2026-10-11T08:47:35.637Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "a506b8eb-57d5-4e91-8eee-b35c9b6c5fe6",
+      "role": "user",
+      "content": "I attached an image: images/photo-1791708447-1.jpg.\n\nI can’t seem to attach it, I browse in my pictures, select it, but I can’t send it to this chat I don’t know why",
+      "status": "cancelled",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-11T08:50:29.647Z",
+      "sender": "ios",
+      "is_cancelled": true
     }
   ]
 }
