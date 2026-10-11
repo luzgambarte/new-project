@@ -1,0 +1,21 @@
+{
+  "sessionId": "cd4d450e-67c2-49e7-a6e4-7f7fdffb8926",
+  "name": "Create a landing page for a",
+  "createdAt": "2026-10-11T08:33:53.400Z",
+  "filename": "cd4d450e-67c2-49e7-a6e4-7f7fdffb8926.json",
+  "geminiStarted": false,
+  "messages": [
+    {
+      "id": "61990101-f614-4a7e-8ff0-6c81963b33fd",
+      "role": "user",
+      "content": "Create a landing page for a concreting company called shore edge concrete. It’s a small company starting up with residential projects in the northern suburbs of Perth. I only need to show a small portfolio, contact number, and a form contact to get quotes",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-11T08:33:54.038Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
+}
