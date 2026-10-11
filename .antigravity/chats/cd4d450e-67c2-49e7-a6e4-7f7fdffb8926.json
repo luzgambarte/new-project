@@ -28,6 +28,18 @@
       "created_at": "2026-10-11T08:36:05.128Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "d4acae29-db1b-4c04-b7e4-c99e1af03349",
+      "role": "agent",
+      "content": "I have built the landing page for **Shore Edge Concrete**, tailored specifically for residential homeowners in Perth's Northern Suburbs.\n\nYou can view the live site here:\n👉 **[View Shore Edge Concrete Landing Page](https://antigravity.luch.dev/site/010aa6e8-b19a-41ba-bc36-8e4e743888a0/4708e063b03706b078887831/)**\n\n---\n\n### What Has Been Built\n\n1. **Brand Identity & Coastal Perth Vibe**:\n   - Clean, professional design with slate concrete tones, coastal cyan accents (`#0284C7`, `#38BDF8`), and warm limestone textures.\n   - Emphasises the startup’s core advantage: **owner-operated craftsmanship** where homeowners deal directly with the concreter pouring their job.\n\n2. **Contact Number Everywhere That Counts**:\n   - Direct line: **`0488 923 114`** (with clickable `tel:` links).\n   - Displayed in the top announcement bar, header with direct call badge (\"Call Liam Direct\"), hero section CTA, contact section, footer, and a **sticky mobile bottom action bar** for easy one-tap calling on phones.\n\n3. **Curated Residential Portfolio**:\n   - **Interactive Filtering Tabs**: Filter by *All Work*, *Driveways*, *Pool & Alfresco*, or *Sheds & Paths*.\n   - **6 Residential Projects** featuring realistic Perth Northern Suburbs jobs:\n     - *Coastal Pearl Exposed Aggregate Driveway & Crossover* (Hillarys)\n     - *Honed Non-Slip Salt-Safe Pool Deck* (Burns Beach)\n     - *Large-Format Liquid Limestone Patio* (Ocean Reef)\n     - *Heavy-Duty 125mm Workshop Shed Slab* (Wanneroo)\n     - *Mid-Grey Basalt Exposed Aggregate* (Scarborough)\n     - *Side Access Pathways & Cantilevered Porch Step* (Alkimos)\n   - **Interactive Project Lightbox**: Clicking any portfolio card opens high-res imagery, slab specs, and reinforcement details.\n   - **Interactive Before & After Slider**: Homeowners can drag to compare worn, sinking brick pavers against modern exposed aggregate.\n\n4. **Quote Request Contact Form**:\n   - Streamlined fields: Name, Phone, Email, Suburb/Postcode (with Northern Suburbs suggestions from Scarborough to Yanchep), Concrete Finish, Approximate Area, Timeframe, and Job Notes.\n   - Instant submission confirmation with a generated reference number (e.g. `#SEC-8421`) and reassuring 24-hour callback response.\n   - **Interactive Perth Cost Estimator**: An interactive m² slider and finish selector that calculates real-time price ranges and can automatically transfer those specs straight into the quote form.\n\n5. **Local Trust Elements**:\n   - Service area badges for Northern Suburbs (Joondalup, Wanneroo, Hillarys, Sorrento, Ocean Reef, Burns Beach, Alkimos, Mindarie, Scarborough, Karrinyup, etc.).\n   - Compliance reassurance (Australian Standards AS 3600, council crossover regulations, clean site guarantee, fully insured).\n   - Residential Concreting FAQ covering permits, curing times, and finish types.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "b5811789-526a-4105-b2db-fb700238b405",
+      "created_at": "2026-10-11T08:41:11.380Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
