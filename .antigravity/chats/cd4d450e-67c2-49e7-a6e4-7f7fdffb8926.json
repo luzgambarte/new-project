@@ -52,6 +52,66 @@
       "created_at": "2026-10-11T08:43:33.696Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "ae89657a-ccfc-475b-9270-50172586a7dd",
+      "role": "agent",
+      "content": "You can view and take full ownership of your site in two easy steps:\n\n### 1. View & Test the Live Site Right Now\nOpen your live site here:\n👉 **[Shore Edge Concrete Live Website](https://antigravity.luch.dev/site/010aa6e8-b19a-41ba-bc36-8e4e743888a0/4708e063b03706b078887831/)**\n\nThis link opens directly and reflects your current project (updating automatically a few seconds after any changes are made).\n\n---\n\n### 2. Connect It to Your GitHub & Make It Yours\nTo own all the files and push the project into your own account:\n* **Tap the GitHub mark (icon) at the top of this chat** to connect your GitHub repository.\n* Once connected, your entire project and change history will be automatically transferred directly to your repository.\n\n---\n\n### 3. Customize It to Your Needs\nYou can also ask me right here to tailor anything specifically for your business, such as:\n- Updating your actual phone number, email, or ABN\n- Changing owner details, prices, or services offered\n- Adding your own project photos or logo\n- Hooking it up to a custom domain (e.g., `shoreedgeconcrete.com.au`) via free hosting platforms like Netlify, Vercel, or GitHub Pages",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "86e6d1e8-e53d-4bc5-a7b2-d2c298fc7cf3",
+      "created_at": "2026-10-11T08:43:46.406Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "8320f627-a329-4290-a39b-635f52141ce4",
+      "role": "user",
+      "content": "I want to update real details, like phone number, name, and logo , how should I do it?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-11T08:46:18.837Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "0b77a0ca-2175-4780-bd38-d66c1c0c5618",
+      "role": "agent",
+      "content": "The easiest way is to **tell me directly right here in the chat**, and I will update everything for you immediately!\n\nYou can simply reply with:\n\n1. **Phone Number**: Your real contact number (e.g., `0412 345 678`)\n2. **Owner / Contact Name**: Your real name (currently set to \"Liam\" as a placeholder)\n3. **Company Email or ABN** *(optional)*: Any real email address or ABN you'd like displayed on the footer and quote confirmations\n4. **Logo**:\n   - You can **drag and drop / attach** your logo image (PNG, SVG, JPG) into the chat.\n   - Alternatively, describe how you'd like the current logo designed (colors, icon style, text layout), and I can design a custom SVG logo for you.\n   - Or, once you tap the **GitHub mark** at the top of the chat, you can add your logo file directly to the project folder.\n\n---\n\nWhenever you share the details, they will update on your live site within seconds:\n👉 **[View Your Live Site](https://antigravity.luch.dev/site/010aa6e8-b19a-41ba-bc36-8e4e743888a0/4708e063b03706b078887831/)**\n\nFeel free to paste your details below whenever you're ready!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "8320f627-a329-4290-a39b-635f52141ce4",
+      "created_at": "2026-10-11T08:46:33.411Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "9deb21fa-8d6d-42fe-abed-a76e68e45e83",
+      "role": "user",
+      "content": "Contar Pieter   Phone number 0472547426",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-11T08:47:11.289Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "a0292ee1-10cb-4ef3-a939-bb9e48728a87",
+      "role": "agent",
+      "content": "I have updated your landing page with your details:\n\n* **Contact Name**: **Pieter**\n* **Direct Phone Number**: **`0472 547 426`** (with clickable `tel:0472547426` links across the header, call buttons, quote forms, footer, and mobile bar)\n\nCheck out your updated live site here:\n👉 **[Shore Edge Concrete Live Website](https://antigravity.luch.dev/site/010aa6e8-b19a-41ba-bc36-8e4e743888a0/4708e063b03706b078887831/)**\n\n---\n\n### Regarding your Logo:\nDo you have an existing image file (such as a PNG, JPG, or SVG) you would like to use?\n* If **yes**: You can drag and drop / attach your image file directly into this chat!\n* If **no**: Let me know your style preferences (e.g., minimalist coastal wave & trowel, geometric shield, bold typography) and I can craft a custom modern SVG logo for Shore Edge Concrete.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "9deb21fa-8d6d-42fe-abed-a76e68e45e83",
+      "created_at": "2026-10-11T08:47:35.637Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
