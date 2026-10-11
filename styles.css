@@ -1,0 +1,198 @@
+/* Shore Edge Concrete - Stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-dark: #12181F;
+  --secondary-dark: #1E2631;
+  --concrete-slate: #334155;
+  --coastal-blue: #0284C7;
+  --coastal-light: #38BDF8;
+  --coastal-hover: #0369A1;
+  --limestone-bg: #F8F6F0;
+  --limestone-card: #FFFFFF;
+  --limestone-border: #E5E1D8;
+  --sand-accent: #E2D9C8;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1E293B;
+  background-color: #FAFAF9;
+  overflow-x: hidden;
+}
+
+/* Custom subtle concrete grain pattern */
+.bg-concrete-pattern {
+  background-color: #12181F;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px), radial-gradient(rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.bg-limestone-subtle {
+  background-color: #F8F6F0;
+  background-image: radial-gradient(rgba(30, 41, 59, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Range Slider Styling */
+input[type=range].custom-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #E2E8F0;
+  border-radius: 9999px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+input[type=range].custom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #0284C7;
+  cursor: pointer;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 4px 6px -1px rgba(2, 132, 199, 0.4), 0 2px 4px -2px rgba(2, 132, 199, 0.3);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+input[type=range].custom-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  background: #0369A1;
+}
+
+input[type=range].custom-slider::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #0284C7;
+  cursor: pointer;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 4px 6px -1px rgba(2, 132, 199, 0.4);
+}
+
+/* Before / After Slider */
+.ba-container {
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+}
+
+.ba-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  border-right: 3px solid #FFFFFF;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ba-handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  background-color: #0284C7;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  cursor: ew-resize;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  z-index: 20;
+}
+
+/* Lightbox Modal */
+.modal-backdrop {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.modal-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-content {
+  transform: scale(0.96) translateY(12px);
+  transition: transform 0.25s ease-out;
+}
+
+.modal-backdrop.active .modal-content {
+  transform: scale(1) translateY(0);
+}
+
+/* Smooth active pill state */
+.tab-btn.active {
+  background-color: #0284C7;
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+}
+
+/* Accordion transition */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-out, opacity 0.25s ease;
+  opacity: 0;
+}
+
+.faq-content.open {
+  max-height: 400px;
+  opacity: 1;
+}
+
+/* Suburb tag chip hover */
+.suburb-chip {
+  transition: all 0.15s ease;
+}
+
+.suburb-chip:hover {
+  transform: translateY(-2px);
+  background-color: #0284C7;
+  color: #FFFFFF;
+  border-color: #0284C7;
+}
+
+/* Floating animation for badge */
+@keyframes softPulse {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-soft-bounce {
+  animation: softPulse 3.5s ease-in-out infinite;
+}
+
+/* Card hover zoom */
+.project-card:hover .project-img {
+  transform: scale(1.06);
+}
+
+.project-img {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Hide scrollbar for tabs on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
