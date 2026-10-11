@@ -2,36 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --primary-dark: #12181F;
-  --secondary-dark: #1E2631;
-  --concrete-slate: #334155;
-  --coastal-blue: #0284C7;
-  --coastal-light: #38BDF8;
-  --coastal-hover: #0369A1;
-  --limestone-bg: #F8F6F0;
+  --primary-dark: #11161B;
+  --secondary-dark: #182028;
+  --concrete-slate: #2B3844;
+  --coastal-blue: #223B4D;
+  --coastal-light: #5A82A0;
+  --coastal-hover: #162734;
+  --limestone-bg: #F4F7F9;
   --limestone-card: #FFFFFF;
-  --limestone-border: #E5E1D8;
-  --sand-accent: #E2D9C8;
+  --limestone-border: #DDE5EB;
+  --sand-accent: #E2E8F0;
 }
 
 body {
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   color: #1E293B;
-  background-color: #FAFAF9;
+  background-color: #F8FAFC;
   overflow-x: hidden;
 }
 
 /* Custom subtle concrete grain pattern */
 .bg-concrete-pattern {
-  background-color: #12181F;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px), radial-gradient(rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+  background-color: #11161B;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px), radial-gradient(rgba(90, 130, 160, 0.06) 1px, transparent 1px);
   background-size: 24px 24px;
   background-position: 0 0, 12px 12px;
 }
 
 .bg-limestone-subtle {
-  background-color: #F8F6F0;
-  background-image: radial-gradient(rgba(30, 41, 59, 0.03) 1px, transparent 1px);
+  background-color: #F4F7F9;
+  background-image: radial-gradient(rgba(34, 59, 77, 0.03) 1px, transparent 1px);
   background-size: 20px 20px;
 }
 
@@ -53,26 +53,26 @@ input[type=range].custom-slider::-webkit-slider-thumb {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background: #0284C7;
+  background: #223B4D;
   cursor: pointer;
   border: 3px solid #FFFFFF;
-  box-shadow: 0 4px 6px -1px rgba(2, 132, 199, 0.4), 0 2px 4px -2px rgba(2, 132, 199, 0.3);
+  box-shadow: 0 4px 6px -1px rgba(34, 59, 77, 0.4), 0 2px 4px -2px rgba(34, 59, 77, 0.3);
   transition: transform 0.15s ease, background-color 0.15s ease;
 }
 
 input[type=range].custom-slider::-webkit-slider-thumb:hover {
   transform: scale(1.15);
-  background: #0369A1;
+  background: #162734;
 }
 
 input[type=range].custom-slider::-moz-range-thumb {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background: #0284C7;
+  background: #223B4D;
   cursor: pointer;
   border: 3px solid #FFFFFF;
-  box-shadow: 0 4px 6px -1px rgba(2, 132, 199, 0.4);
+  box-shadow: 0 4px 6px -1px rgba(34, 59, 77, 0.4);
 }
 
 /* Before / After Slider */
@@ -109,7 +109,7 @@ input[type=range].custom-slider::-moz-range-thumb {
   transform: translate(-50%, -50%);
   width: 44px;
   height: 44px;
-  background-color: #0284C7;
+  background-color: #223B4D;
   border: 3px solid #FFFFFF;
   border-radius: 50%;
   display: flex;
@@ -144,9 +144,9 @@ input[type=range].custom-slider::-moz-range-thumb {
 
 /* Smooth active pill state */
 .tab-btn.active {
-  background-color: #0284C7;
+  background-color: #223B4D;
   color: #FFFFFF;
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+  box-shadow: 0 4px 12px rgba(34, 59, 77, 0.25);
 }
 
 /* Accordion transition */
@@ -169,10 +169,11 @@ input[type=range].custom-slider::-moz-range-thumb {
 
 .suburb-chip:hover {
   transform: translateY(-2px);
-  background-color: #0284C7;
+  background-color: #223B4D;
   color: #FFFFFF;
-  border-color: #0284C7;
+  border-color: #223B4D;
 }
+
 
 /* Floating animation for badge */
 @keyframes softPulse {
