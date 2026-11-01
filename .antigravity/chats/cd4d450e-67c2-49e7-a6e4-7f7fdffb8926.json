@@ -388,6 +388,18 @@
       "created_at": "2026-11-01T09:51:53.009Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "ddbd6b3d-d8e8-468a-9d98-5eed7bb3f866",
+      "role": "user",
+      "content": "“Get your fast transparent quote” to be changed by “get your quote now”",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-01T09:52:57.210Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
