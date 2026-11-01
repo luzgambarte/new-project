@@ -75,80 +75,6 @@ input[type=range].custom-slider::-moz-range-thumb {
   box-shadow: 0 4px 6px -1px rgba(34, 59, 77, 0.4);
 }
 
-/* Before / After Slider */
-.ba-container {
-  position: relative;
-  overflow: hidden;
-  user-select: none;
-}
-
-.ba-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-  border-right: 3px solid #FFFFFF;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.ba-overlay img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  max-width: none;
-  object-fit: cover;
-}
-
-.ba-handle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 44px;
-  height: 44px;
-  background-color: #223B4D;
-  border: 3px solid #FFFFFF;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
-  cursor: ew-resize;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-  z-index: 20;
-}
-
-/* Lightbox Modal */
-.modal-backdrop {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.25s ease-in-out;
-}
-
-.modal-backdrop.active {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.modal-content {
-  transform: scale(0.96) translateY(12px);
-  transition: transform 0.25s ease-out;
-}
-
-.modal-backdrop.active .modal-content {
-  transform: scale(1) translateY(0);
-}
-
-/* Smooth active pill state */
-.tab-btn.active {
-  background-color: #223B4D;
-  color: #FFFFFF;
-  box-shadow: 0 4px 12px rgba(34, 59, 77, 0.25);
-}
-
 /* Accordion transition */
 .faq-content {
   max-height: 0;
@@ -189,16 +115,7 @@ input[type=range].custom-slider::-moz-range-thumb {
   animation: softPulse 3.5s ease-in-out infinite;
 }
 
-/* Card hover zoom */
-.project-card:hover .project-img {
-  transform: scale(1.06);
-}
-
-.project-img {
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-/* Hide scrollbar for tabs on mobile */
+/* Hide scrollbar on mobile */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
