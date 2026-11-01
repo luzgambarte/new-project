@@ -316,6 +316,18 @@
       "created_at": "2026-11-01T09:38:23.090Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "1184b636-3e6e-48ad-9676-d512f9b569ca",
+      "role": "user",
+      "content": "Switch around the sections. Underneath the first blue section, put the contact form and quote request. The rest of the sections can follow",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-01T09:41:43.810Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
