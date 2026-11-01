@@ -304,6 +304,18 @@
       "created_at": "2026-11-01T09:35:02.816Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "d6cb417c-5b38-4515-8f44-195f31ab6b99",
+      "role": "agent",
+      "content": "Yes, the Frequently Asked Questions section has been completely removed.\n\nSpecifically:\n- **Navigation**: The \"FAQ\" links in both the desktop and mobile navigation menus were removed.\n- **Content**: The entire FAQ accordion section (and all its questions/answers) was deleted from [`index.html`](https://github.com/luzgambarte/new-project/blob/main/index.html).\n- **Scripts & Styles**: The JavaScript accordion logic and FAQ transition styles were cleaned up in [`styles.css`](https://github.com/luzgambarte/new-project/blob/main/styles.css).\n\nIf your browser still showed the previous version, please do a quick refresh or open the live link below to view the latest update:\n\n👉 **[View Shore Edge Concrete Live Site](https://antigravity.luch.dev/site/010aa6e8-b19a-41ba-bc36-8e4e743888a0/4708e063b03706b078887831/)**",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "e926d5c6-222e-4c87-aeaa-96db40d2985f",
+      "created_at": "2026-11-01T09:38:23.090Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
