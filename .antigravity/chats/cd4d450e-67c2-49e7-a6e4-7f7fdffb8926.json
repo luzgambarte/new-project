@@ -460,6 +460,18 @@
       "created_at": "2026-11-01T09:57:14.023Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "9961159f-5be9-48a4-8980-41179cd602fb",
+      "role": "user",
+      "content": "I want to save all the changes on the website",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-01T09:58:29.319Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
