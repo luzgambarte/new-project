@@ -993,73 +993,6 @@
     </div>
   </section>
 
-  <!-- FAQ SECTION -->
-  <section id="faq" class="py-20 bg-white border-b border-slate-200">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center mb-12 space-y-2">
-        <span class="text-xs uppercase font-extrabold tracking-widest text-brand-blue px-3 py-1 rounded-full bg-sky-50 border border-sky-200 inline-block">
-          Common Questions
-        </span>
-        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">
-          Frequently Asked Questions
-        </h2>
-        <p class="text-slate-600 text-sm">
-          Everything you need to know about preparing for residential concreting in Perth.
-        </p>
-      </div>
-
-      <div class="space-y-3.5" id="faqAccordion">
-        
-        <!-- FAQ 1 -->
-        <div class="border border-slate-200 rounded-xl overflow-hidden bg-stone-50/50">
-          <button type="button" class="faq-btn w-full px-5 py-4 text-left flex items-center justify-between gap-4 font-bold text-slate-900 hover:text-brand-blue transition-colors focus:outline-none" onclick="toggleFaq(this)">
-            <span class="text-sm sm:text-base">Do you organise the council crossover approval and permits?</span>
-            <svg class="w-5 h-5 text-slate-400 shrink-0 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="faq-content px-5 pb-4 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            Yes! We regularly pour crossovers compliant with the City of Joondalup, City of Wanneroo, and City of Stirling standards. We ensure correct levels, stormwater falls, matching footpaths, and necessary council crossover specs (including council rebate paperwork support).
-          </div>
-        </div>
-
-        <!-- FAQ 2 -->
-        <div class="border border-slate-200 rounded-xl overflow-hidden bg-stone-50/50">
-          <button type="button" class="faq-btn w-full px-5 py-4 text-left flex items-center justify-between gap-4 font-bold text-slate-900 hover:text-brand-blue transition-colors focus:outline-none" onclick="toggleFaq(this)">
-            <span class="text-sm sm:text-base">How long until I can walk and drive on my new concrete?</span>
-            <svg class="w-5 h-5 text-slate-400 shrink-0 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="faq-content px-5 pb-4 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            You can comfortably walk on new concrete after 24 to 48 hours. For vehicles and parking on driveways or shed slabs, we recommend waiting 7 to 10 days for standard passenger cars, allowing the slab to reach high curing strength under Perth temperature conditions.
-          </div>
-        </div>
-
-        <!-- FAQ 3 -->
-        <div class="border border-slate-200 rounded-xl overflow-hidden bg-stone-50/50">
-          <button type="button" class="faq-btn w-full px-5 py-4 text-left flex items-center justify-between gap-4 font-bold text-slate-900 hover:text-brand-blue transition-colors focus:outline-none" onclick="toggleFaq(this)">
-            <span class="text-sm sm:text-base">What is the difference between Exposed Aggregate and Honed Concrete?</span>
-            <svg class="w-5 h-5 text-slate-400 shrink-0 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="faq-content px-5 pb-4 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            Exposed aggregate is created by washing away surface concrete to expose round textured river pebbles, making it ideal for vehicular driveways with maximum grip. Honed concrete is mechanically ground flat to a silky smooth matte plane—ideal for alfresco areas and around pools because it feels pleasant under bare feet while retaining slip resistance.
-          </div>
-        </div>
-
-        <!-- FAQ 4 -->
-        <div class="border border-slate-200 rounded-xl overflow-hidden bg-stone-50/50">
-          <button type="button" class="faq-btn w-full px-5 py-4 text-left flex items-center justify-between gap-4 font-bold text-slate-900 hover:text-brand-blue transition-colors focus:outline-none" onclick="toggleFaq(this)">
-            <span class="text-sm sm:text-base">Do you remove existing brick paving and handle bobcat excavation?</span>
-            <svg class="w-5 h-5 text-slate-400 shrink-0 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="faq-content px-5 pb-4 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-            Absolutely. Over 80% of our residential jobs in established suburbs like Hillarys and Sorrento involve ripping out 15-to-25-year-old sinking pavers. We manage the mini-bobcat earthworks, remove waste, and vibratory-plate compact your sand subgrade so you don't have to hire separate contractors.
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
   <!-- FOOTER -->
   <footer class="bg-brand-dark text-slate-400 py-12 border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1309,22 +1242,6 @@
       document.getElementById('contactQuoteForm').reset();
       document.getElementById('contactQuoteForm').classList.remove('hidden');
       document.getElementById('formSuccessState').classList.add('hidden');
-    }
-
-    // 7. FAQ Accordion Toggle
-    function toggleFaq(button) {
-      const content = button.nextElementSibling;
-      const arrow = button.querySelector('svg');
-      const isOpen = content.classList.contains('open');
-
-      // Close all other faqs
-      document.querySelectorAll('.faq-content').forEach(c => c.classList.remove('open'));
-      document.querySelectorAll('.faq-btn svg').forEach(a => a.classList.remove('rotate-180'));
-
-      if (!isOpen) {
-        content.classList.add('open');
-        arrow.classList.add('rotate-180');
-      }
     }
   </script>
 

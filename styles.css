@@ -75,19 +75,6 @@ input[type=range].custom-slider::-moz-range-thumb {
   box-shadow: 0 4px 6px -1px rgba(34, 59, 77, 0.4);
 }
 
-/* Accordion transition */
-.faq-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.35s ease-out, opacity 0.25s ease;
-  opacity: 0;
-}
-
-.faq-content.open {
-  max-height: 400px;
-  opacity: 1;
-}
-
 /* Suburb tag chip hover */
 .suburb-chip {
   transition: all 0.15s ease;
